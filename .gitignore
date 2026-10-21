@@ -1,1 +1,12 @@
 *.agents*
+
+# Local dependencies, caches, and credentials
+node_modules/
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Generated local verification artifacts
+.npm-cache/
+*.log
